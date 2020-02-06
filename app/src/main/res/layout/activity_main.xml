@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tadevelopers.cu.communcatinguser.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Toast Activity"
+        android:id="@+id/btnLaunchToast"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Snackbar Activity"
+        android:id="@+id/btnLaunchSnackbar"
+        android:layout_below="@+id/btnLaunchToast"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Dialog Activity"
+        android:id="@+id/btnLaunchDialog"
+        android:layout_below="@+id/btnLaunchSnackbar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Notification Activity"
+        android:id="@+id/btnLaunchNotification"
+        android:layout_below="@+id/btnLaunchDialog"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
